@@ -40,9 +40,10 @@ router.render = (req, res) => {
 
   res.jsonp(res.locals.data);
 };
-
-// Use default router
 server.use("/companies", router);
-server.listen(3000, () => {
+// Use default router
+const PORT = process.env.PORT || 3000;
+
+server.listen(PORT, () => {
   console.log("JSON Server is running");
 });
