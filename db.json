@@ -1,244 +1,78 @@
 {
   "employees": [
     {
-      "id": 1,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Trưởng Phòng" }
+      "id": "c53c3585-afcd-41a4-8b67-9fcd3f16af20",
+      "fullName": "Thành Ân Vũ",
+      "email": "MinhV_Bi@yahoo.com",
+      "dateOfBirth": "2003-04-11T04:44:40.676Z",
+      "address": "Bắc Ninh",
+      "phoneNumber": "025 6031 2224",
+      "position": { "name": "CSV" },
+      "startDate": "1971-12-28T01:23:35.786Z"
     },
     {
-      "id": 2,
-      "fullName": "Trần Hòa Đức",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1fdasfaf@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "22/03/2002",
-      "address": "40 Cao Bá Quát,Hà Nội",
-      "position": { "name": "Phó Phòng" }
+      "id": "79005829-86be-4304-b910-61b42a90b344",
+      "fullName": "Dr. Hải Nam Hà",
+      "email": "HongXun25@gmail.com",
+      "dateOfBirth": "1956-06-17T20:04:57.594Z",
+      "address": "Bạc Liêu",
+      "phoneNumber": "0250 8328 8339",
+      "position": { "name": "BLACKHOLE" },
+      "startDate": "1972-12-17T23:48:15.858Z"
     },
     {
-      "id": 3,
-      "fullName": "Trần Văn Như",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1bgn@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "08/08/2007",
-      "address": "Số 68, Phạm Huy Thông, Ngọc Khánh,Hà Nội",
-      "position": { "name": "Nhân viên" }
+      "id": "c93aa9a8-8750-49d8-9859-2dc38c864a61",
+      "fullName": "Mr. Cát Uy Đoàn",
+      "email": "HuThng31@yahoo.com",
+      "dateOfBirth": "1999-12-31T17:26:20.905Z",
+      "address": "Bà Rịa-Vũng Tàu",
+      "phoneNumber": "0282 8762 2315",
+      "position": { "name": "MyISAM" },
+      "startDate": "1960-10-28T08:12:10.300Z"
     },
     {
-      "id": 4,
-      "fullName": "Nguyễn Khánh Linh",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1ljhhj@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "26/09/2009",
-      "address": "Số 3B, Phan Đình PhùngĐồ ăn Châu Á, Âu,Hà Nội",
-      "position": { "name": "Nhân viên" }
+      "id": "9818c890-7701-4252-83f2-f9fbda8f63f6",
+      "fullName": "Khánh Duy Đào II",
+      "email": "LGiang74@yahoo.com",
+      "dateOfBirth": "1960-03-08T23:53:15.288Z",
+      "address": "Khánh Hoà",
+      "phoneNumber": "022 2263 1985",
+      "position": { "name": "BLACKHOLE" },
+      "startDate": "1954-06-04T04:23:14.526Z"
+    }
+  ],
+  "departments": [
+    {
+      "id": "acca82f5-1ea6-46a1-b834-2916b5a3f4db",
+      "name": "portals",
+      "number_employees": "2",
+      "startDate": "1945-09-04T05:46:47.778Z",
+      "address": "Bạc Liêu",
+      "manager": { "name": "Ms. Thục Vân Vũ" }
     },
     {
-      "id": 5,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
+      "id": "224980bf-1c85-415f-ba22-a048d655ec3a",
+      "name": "functionalities",
+      "number_employees": "9",
+      "startDate": "1969-03-29T00:11:05.060Z",
+      "address": "An Giang",
+      "manager": { "name": "Mrs. Trường Liên Trịnh" }
     },
     {
-      "id": 6,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
+      "id": "eca23e3e-b590-4cc2-af47-8fb44c67eef4",
+      "name": "e-commerce",
+      "number_employees": "6",
+      "startDate": "1980-06-24T00:58:47.174Z",
+      "address": "Bắc Ninh",
+      "manager": { "name": "Quế Linh Đỗ" }
     },
     {
-      "id": 7,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 8,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 9,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 10,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 11,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 12,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 13,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 14,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 15,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 16,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 17,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 18,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 19,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 20,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 21,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 22,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 23,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
-    },
-    {
-      "id": 24,
-      "fullName": "Trần Văn An",
-      "dateOfBirth": "12/07/1975",
-      "email": "test1@gmail.com",
-      "phoneNumber": "1234567878",
-      "startDate": "23/04/2002",
-      "address": "27-28, ngõ 294 Vạn Phúc, Kim Mã,Hà Nội",
-      "position": { "name": "Nhân viên" }
+      "id": "dfa7efcb-fe1f-4ad9-aca0-e3153864701e",
+      "name": "mindshare",
+      "number_employees": "1",
+      "startDate": "1954-06-03T21:29:58.692Z",
+      "address": "Bắc Kạn",
+      "manager": { "name": "Dạ Thi Lâm" }
     }
   ]
 }
