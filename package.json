@@ -20,7 +20,6 @@
   },
   "devDependencies": {
     "@faker-js/faker": "^7.4.0",
-    "faker": "^6.6.6",
     "nodemon": "^2.0.19"
   }
 }
